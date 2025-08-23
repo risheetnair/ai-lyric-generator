@@ -1,0 +1,40 @@
+# ===== Spring Boot (Backend) =====
+HELP.md
+backend/target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Spring Tools ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### Maven ###
+*.log
+*.jar
+*.war
+
+# ===== React (Frontend) =====
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# ===== IDEs =====
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ===== System Files =====
+.DS_Store
+Thumbs.db
+
+# ===== Secrets =====
+*.env
+backend/src/main/resources/application.properties
